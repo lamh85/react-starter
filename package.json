@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=13.11"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,13 +24,13 @@
     "enzyme-adapter-react-16": "^1.11.2",
     "jest": "^24.7.1",
     "jest-styled-components": "^6.3.1",
-    "webpack": "^4.20.2",
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.5.2",
+    "react": "^16.13.1",
     "react-dom": "^16.5.2",
     "react-hot-loader": "^4.3.11",
     "styled-components": "^4.2.0",
